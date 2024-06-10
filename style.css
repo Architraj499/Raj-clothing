@@ -1,0 +1,258 @@
+body {
+    max-width: 1920px;
+    margin: 0;
+    padding:0px;
+    font-family: Arial, sans-serif;
+    overflow-x:hidden;
+ 
+}
+
+#navbar {
+    height:24px;
+    padding-left: 50px;
+    background-color: #ffffff;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    color: #000000;
+}
+#navbar img {
+    height: 40px;
+    margin-left: 20px;
+    margin-left:0px;
+    align-content: center;
+ }
+ #searchbar {
+    height:30px;
+    width: 400px; 
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #f3f3f3;
+    font-size: 16px;
+}
+
+.profile-size{
+    margin-left: 10px;
+    margin-top:0px;
+   height:24px;
+   width: 24px;
+}
+
+.search{
+    background-color: #f3f3f3;
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+}
+   
+
+.span{
+  
+    margin-top:16px;
+    margin-left: 10px;
+    margin-right: 0px;
+    display: flex;
+    
+    align-items: center;
+}
+.drop{
+
+    margin-top: 12px;
+    margin-left: -5px;
+}
+.cart{
+  
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.cart1{
+  
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.span1{
+    
+     margin-top:16px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.shop{
+   
+    margin-top:16px;
+    margin-left: 50px;
+    display: flex;
+     align-items: center;
+}
+.shop1{
+    height: 10px;
+    margin-top:14px;
+    margin-left: 8px;
+    
+
+}
+.dot{
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 15px;
+    
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.m2x{
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-right:0px;
+    padding-top: 50px;
+    box-sizing: content-box;
+}
+.m2{
+   
+    height: 80px;
+    width:80px;
+    margin: 10px 10px 7px 23px;
+    font-size:14px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+.m1{
+    height: 80px;
+    width:80px;
+    margin: 10px 10px 7px 23px;
+    font-size:14px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+.m3{
+    height: 80px;
+    width:80px;
+    margin: 10px 10px 7px 23px;
+    font-size:14px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  
+}
+.drop2{
+    display: flex;
+    justify-content:center;
+    margin-top:-16px;
+    margin-left: 50px;
+
+}
+
+.drop3{
+    display: flex;
+    justify-content:center;
+    margin-top:-16px;
+    margin-left:80px;
+
+}
+
+.drop4{
+    display: flex;
+    justify-content:center;
+    margin-top:-20px;
+    margin-left: 135px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    margin-right: 0px;
+    color: rgb(0,0,0);
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown-content {
+    color: #000000;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    margin-top: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {
+    color: #000000;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ .slider{
+    height: 250px;
+    width: 1920px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-left:20px;
+    background-image: url("poster.png");
+    background-size: cover;
+ }
+.mid{
+    height:170px;
+    width:1500px;
+    margin-left: 5px;
+    margin-right:20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#mid1{
+    
+    border-color: #ffffff;
+    border-left: 0px;
+    margin-left: 5px;
+}
+#mid2{
+    
+    border-color: #ffffff;
+    border-left: 5px;
+    margin-left: 5px;
+}
+#mid3{
+    
+    border-color: #ffffff;
+    border-left: 5px;
+    margin-left: 5px;
+}
+#footer{
+    position:sticky;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
