@@ -215,12 +215,12 @@ a{
   }
  .slider{
     height: 250px;
-    width: 1920px;
+    width: 2000px;
     margin-top: 20px;
     margin-bottom:20px;
     margin-right:20px;
     margin-left:20px;
-    background-image: url("poster.png");
+    background-image: url("Poster1.png");
     background-size: cover;
  }
 .mid{
@@ -255,4 +255,120 @@ a{
     padding-bottom: 0px;
     margin-top: 10px;
     margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer {
+    background-color: #231f1f;
+    padding: 20px 0;
+    border-top: 300px solid #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 16px;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #0c0d0f;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #e9e9e9;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #231f1f;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        color: #9b9b9b;
+    }
+    
+    p, ul {
+        font-size: 14px;
+    }
+    
+    .intro {
+        font-size: 16px;
+    }
+    
+    .closing {
+        font-size: 16px;
+    }
 }

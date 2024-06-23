@@ -72,3 +72,6 @@ body {
 .signup-container button:focus {
     outline: none;
 }
+.p{
+    text-decoration: none;
+}
