@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Clothing - Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        .form-group {
+            position: relative;
+        }
+        .form-group input {
+            width: calc(100% - 30px); /* Adjust width to make space for the eye icon */
+            padding-right: 30px; /* Add padding to the right for the eye icon */
+        }
+        .form-group .toggle-password {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function togglePasswordVisibility(id) {
+            var passwordField = document.getElementById(id);
+            var eyeIcon = document.querySelector(`#${id} + .toggle-password`);
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                eyeIcon.textContent = "🙈";
+            } else {
+                passwordField.type = "password";
+                eyeIcon.textContent = "👁️";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Raj Clothing</h1>
+        <form action="/signup" method="post">
+            <div class="form-group">
+                <label for="username">Fullname</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="toggle-password" onclick="togglePasswordVisibility('password')">👁️</span>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <span class="toggle-password" onclick="togglePasswordVisibility('confirm-password')">👁️</span>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="signup-link">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

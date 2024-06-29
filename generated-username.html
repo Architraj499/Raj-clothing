@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Username</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="username-container">
+            <h1>Generated Username</h1>
+            <p>The username for your account is:</p>
+            <h2 id="generatedUsername"></h2>
+        </div>
+    </div>
+
+    <script>
+        // Retrieve the generated username from localStorage
+        let generatedUsername = localStorage.getItem("generatedUsername");
+
+        // Display the generated username
+        document.getElementById("generatedUsername").textContent = generatedUsername;
+    </script>
+</body>
+</html>

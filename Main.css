@@ -191,7 +191,7 @@ a{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-Main: 1;
   }
   
  
@@ -286,6 +286,7 @@ body {
 }
 
 .site-footer {
+    width: auto;
     background-color: #231f1f;
     padding: 20px 0;
     border-top: 300px solid #ffffff;
